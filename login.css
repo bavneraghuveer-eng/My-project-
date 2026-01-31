@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  height: 100%;
+}
+
+body{
+    min-height: 100svh;
+    min-height: 100vh;
+    background: url("loginPageback.png") no-repeat center center;
+    background-size: cover;
+    display: ;
+    font-family: 'Sora', sans-serif;
+    align-items: center;
+    justify-content: center;
+   font-family: Arial, sans-serif; 
+}
+.icon{
+  opacity: none;
+  height: 44px;
+  top:12px;
+  left:14px;
+  width:44px;
+  position:fixed;
+  border:1px solid black;
+  border-radius: 50%;
+}
+img{
+  padding:9px;
+  height: 45px;
+  width:45px;
+  border-radius: 50%;
+}
+.h2{
+    text-align: center;
+    background: rgba(0,0,0,0.28);
+    background-color: ;
+    border-radius: 9px;
+}
+h2{
+  font-weight: 600;
+  color:black;
+}
+header{
+    height: 150px;
+    opacity: 0.4;
+    width:100%;
+    font-weight: 600;
+    padding: 52px 50px 72px 90px;
+    background: rgba(0,0,0,0.1);
+    border:1px solid black; 
+    background-color: whitesmoke;
+    border-radius: 0px 0px 25px 25px;
+}
+form{
+    background: rgba(0,0,0,0.1);
+    padding: 80px;
+    width:90%;
+    height: 90%;  
+    margin-top:120px;   
+    margin-left: 22px;    
+    text-decoration: bold;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 1px 3px 3px rgba(0,0,0,0.2);
+    opacity:12;
+    border: 0.3px solid black;
+}
+label{
+    font-weight: 1000;    
+}
+label:hover{
+    
+    font-weight: 1000;   
+    height: 12px;
+    width:4px;
+    padding: 3px;
+    border:1px solid black;
+    border-radius: 12px;
+    box-shadow:0 2px 3px rgba(160,32,240,0.6);
+}
+label:focus{
+    
+}
+input[type="text"],
+input[type="password"]{
+    width:100%;
+    padding: 8px;
+    border-radius: 16px;
+    margin: 10px 0px;
+    opacity: 0.69;
+    border:2px solid transparent;
+    outline: none;
+}
+input[type="text"]:focus,
+input[type="password"]:focus{
+    border-color: #e33764;
+    opacity: 1.0;
+    box-shadow:0 2px 3px rgba(227,55,100,0.6);
+    color:black;
+}
+button{
+    width:100%;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 10px 0px;
+    background-color: pink;
+    border:1px solid pink;
+    
+
+}
+button:hover{
+    background-color: hotpink;
+    box-shadow: 0 10px 9px rgba(227,55,100,0.6);
+    color:white;
+}
