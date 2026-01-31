@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+  <header>
+     <div class="icon">
+        <img src="exit-512x512.png">        
+     </div>
+    <h2><b>Welcome back to your intersting journy</b></h2>
+  </header>
+
+<form> 
+  <h2 class="h2">Login Page</h2>
+  <br>
+  <label for="txt">Username</label>
+  <input type="text" placeholder="Enter Username" id="txt"><br><br>
+  <label for="psw">Password</label>
+  <input type="password" id="psw" placeholder="Enter Password"><br><br>
+  <button type="submit">Login</button>
+</form>
+<script>
+let form = document.querySelector("form")
+form.addEventListener("submit",function(e){
+    e.preventDefault()
+    alert("your form is submitted")
+})
+
+
+</script>
+
+</body>
+</html>
